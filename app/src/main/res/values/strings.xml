@@ -11,5 +11,12 @@
             MAGAZINE
         </item>
     </string-array>
+    
+    <string name="ic_book_content_cover_description">This is a book cover image.</string>
+
+    <string name="channel_name">Remote Notification</string>
+    <string name="channel_description">Channel for receiving remote firebase notifications </string>
+    <string name="log_out">Logging Current User out</string>
+    <string name="menu">Logout</string>
 
 </resources>
