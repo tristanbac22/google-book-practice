@@ -27,7 +27,9 @@ class BookAPI {
                 okHttpLogging.level = HttpLoggingInterceptor.Level.BASIC
             else
                 okHttpLogging.level = HttpLoggingInterceptor.Level.NONE
-        val client = OkHttpClient.Builder().addInterceptor(okHttpLogging).build()
+        val client = OkHttpClient.Builder()
+            .addInterceptor(okHttpLogging)
+            .build()
         return client
     }
 }
